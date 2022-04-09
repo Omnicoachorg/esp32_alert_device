@@ -29,6 +29,7 @@ A different service is monitoring our virtual office (we use Gather), and when s
 ### MQTT messages
 Start blinking the LED:
 - Broadcast a raw text message with any content to the `orgName` channel (orgName set in `config.h`)
+- 
 Update the firmware:
 - Broadcast a raw text message to the `orgName/update` channel (orgName set in `config.h`)
   - Message content should be the publicly accessible URL to the new firmware binary file.
